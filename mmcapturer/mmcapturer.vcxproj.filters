@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\codec">
+      <UniqueIdentifier>{1b3d4af9-1bcb-46e0-81d6-9d728b551d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\codec">
+      <UniqueIdentifier>{c82f9325-f3a5-4a92-aea5-da089702f9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{a1e1d624-d305-49de-bb7e-eb5d9405dacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{36cba0e0-5e2e-4fb3-9da0-d0ef93a0e0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\sample">
+      <UniqueIdentifier>{70ea4c5a-4e86-48c4-914f-fa104f283407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sample">
+      <UniqueIdentifier>{892857e2-9309-4b44-b6f8-b4096d53be25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mmcapturer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mmcapturerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\codec_utils.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffmpeg_decoder.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ffmpeg_transcoder.h">
+      <Filter>头文件\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_lockfree_queue.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_logger.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_msg_queue.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_utf8.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common_utils.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_audiobox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_audiodevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_enum_mediatypes.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_enum_pins.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_filter.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_media_rawdata.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_mediabox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_mediadevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_pin.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_utils.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_videobox.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sample_videodevice.h">
+      <Filter>头文件\sample</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mmcapturer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mmcapturerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\codec_utils.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ffmpeg_decoder.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ffmpeg_transcoder.cpp">
+      <Filter>源文件\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_lockfree_queue.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_logger.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_msg_queue.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_utf8.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common_utils.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_audiobox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_audiodevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_enum_mediatypes.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_enum_pins.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_filter.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_media_rawdata.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_mediabox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_mediadevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_pin.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_utils.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_videobox.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sample_videodevice.cpp">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mmcapturer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\mmcapturer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mmcapturer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
