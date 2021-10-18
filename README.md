@@ -9,3 +9,5 @@ IDE使用的Visual Studio 2015社区版。代码下载后直接编译即可运�
 该系统使用的具体的FFmpeg版本为：ffmpeg-4.4-full_build-shared
 SDL版本为SDL2-2.0.14
 
+软件截图:
+![Image text](https://raw.githubusercontent.com/videoaudiolijian/mmcapturer/master/screenshot/screenshot.png)
